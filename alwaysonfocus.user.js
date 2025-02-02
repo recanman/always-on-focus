@@ -16,6 +16,7 @@ unsafeWindow.blurred = false;
 
 unsafeWindow.document.hasFocus = () => true;
 unsafeWindow.window.onFocus = () => true;
+unsafeWindow.window.onfocus = () => true;
 
 // kill dom property names
 [
