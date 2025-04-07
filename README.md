@@ -1,32 +1,9 @@
-# Always on focus
-Userscript to trick websites into thinking the tab is always on focus
+# Introduction
 
----
-## Installation
+Pextra CloudEnvironment&reg; is a modern private cloud management and virtualization platform. It is capable of managing globally-distributed datacenters and provides a unified, multi-tenant management interface for all resources. It is designed to be highly scalable and flexible, with a focus on security and ease of use. Storage, networking, and compute resources are completely abstracted and software-defined, allowing for easy management and automation of all aspects of the deployment.
 
-1. Download the [Tampermonkey](https://www.tampermonkey.net/) browser extension
+This guide provides rich user documentation on how to install, administer, and use Pextra CloudEnvironment&reg;. This guide assumes minimal prior knowledge, and is designed to be accessible to users of all skill levels, from beginners to experts.
 
-2. Click [here](https://github.com/daijro/always-on-focus/raw/main/alwaysonfocus.user.js) to install the userscript
+## License
 
-3. Toggle the userscript on/off from the Tampermonkey dashboard
-
-
-<hr width=50>
-
-
-## What it does
-
-Always on focus is a lightweight userscript that prevents websites from knowing that you switched tabs or unfocused the window. This is a fork of [this userscript](https://userscripts-mirror.org/scripts/review/177284) that adds these:
-
-- Disables the [Page Visibility API](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
-
-- Disables the `window.onblur()` event and and sets `window.hasFocus()` and `window.onFocus()` to always true ([Ex.](https://www.codingwithjesse.com/demo/2007-05-16-detect-browser-window-focus/))
-
-- Removes the `visibilitychange` and `blur` event listeners ([Ex.](http://daniemon.com/tech/webapps/page-visibility/))
-
-
-#### Example:
-
-Here is an example website that changes color when the window isn't focused:
-
-![Preview](https://github.com/daijro/always-on-focus/blob/main/preview/preview.gif)
+This documentation is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
